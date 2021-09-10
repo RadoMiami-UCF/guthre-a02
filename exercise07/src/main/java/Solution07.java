@@ -6,6 +6,10 @@ public class Solution07 {
     //Side note: IntelliJ yelled at me when I put the constant in main for whatever reason.
     public static void main(String[] args) {
         /*
+         *  UCF COP3330 Fall 2021 Assignment 2 Solution
+         *  Copyright 2021 Kimari Guthre
+         */
+        /*
         Ask for and store the length and width of a room in feet.
         Then tell the user the length and width that they inputted.
         Then calculate the area in square feet, then tell it to the user
@@ -18,10 +22,12 @@ public class Solution07 {
         double roomLength = Double.parseDouble(in.nextLine());
         System.out.print("What is the width of the room in feet? ");
         double roomWidth = Double.parseDouble(in.nextLine());
-        System.out.println("You entered dimensions of " + doubleFormat.format(roomLength) + " feet by " + doubleFormat.format(roomWidth) + " feet.");
+        System.out.println("You entered dimensions of " + doubleFormat.format(roomLength) + " feet by "
+                + doubleFormat.format(roomWidth) + " feet.");
         double areaSqFeet = roomLength * roomWidth;
         double areaSqMeters = areaSqFeet * SQ_METER_TO_SQ_FEET_FACTOR;
-        System.out.print("The area is\n" + doubleFormat.format(areaSqFeet) + " square feet\n" + doubleFormat.format(areaSqMeters) + " square meters");
+        System.out.print("The area is\n" + doubleFormat.format(areaSqFeet) + " square feet\n"
+                + doubleFormat.format(areaSqMeters) + " square meters");
 
     }
 }

@@ -1,7 +1,29 @@
 
-M	java:S106"9Replace this use of System.out or System.err by a logger.(øšä|
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ì—Ã¦
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‡âÍ™
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ùï‡
+a
+java:S1105"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¾Ìª…½/
+a
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ÛÛ¯ø8ÎÌª…½/
+a
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(äÆ¾Ó8ÎÌª…½/
+;
+java:S1451"&Add or update the header of this file.8ÎÌª…½/
+L
+java:S6212"/Declare this local variable with "var" instead.(äÆ¾Ó8ÎÌª…½/
+S
+java:S1943"6Remove this use of constructor "Scanner(InputStream)".(äÆ¾Ó8ÎÌª…½/
+M	java:S106"9Replace this use of System.out or System.err by a logger.(øšä|
+Q
+java:S6212"/Declare this local variable with "var" instead.(”‘¬´şÿÿÿÿ8İÌª…½/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ì—Ã¦
+Q
+java:S6212"/Declare this local variable with "var" instead.(şˆ’ÿÿÿÿÿ8İÌª…½/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‡âÍ™
+K
+java:S6212"/Declare this local variable with "var" instead.(ÓŠîI8İÌª…½/
+E
+java:S2143")Use the Java 8 Date and Time API instead.(ÓŠîI8İÌª…½/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ùï‡
 0
 java:S1220""Move this file to a named package.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(£ö¦Ô8İÌª…½/

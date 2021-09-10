@@ -1,0 +1,29 @@
+
+`
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(‚†M8á¶¬…½/
+a
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(©¾ó8á¶¬…½/
+;
+java:S1451"&Add or update the header of this file.8á¶¬…½/
+_
+java:S2039"CExplicitly declare the visibility for "SQ_METER_TO_SQ_FEET_FACTOR".(‚†M8·¬…½/
+L
+java:S6212"/Declare this local variable with "var" instead.(©¾ó8·¬…½/
+L
+java:S6212"/Declare this local variable with "var" instead.(äÆ¾Ó8 ·¬…½/
+S
+java:S1943"6Remove this use of constructor "Scanner(InputStream)".(äÆ¾Ó8¯·¬…½/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ëª‘
+L
+java:S6212"/Declare this local variable with "var" instead.(„÷§8¯·¬…½/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(çÜ‹
+L
+java:S6212"/Declare this local variable with "var" instead.(‹³Ò¢8¯·¬…½/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(†òøĞ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Õ‚‡ÿÿÿÿÿ
+7
+java:S1220""Move this file to a named package.8¯·¬…½/
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Í‘Ñ‡8¯·¬…½/
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘8¿·¬…½/

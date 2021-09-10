@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Solution11 {
     /*
+     *  UCF COP3330 Fall 2021 Assignment 2 Solution
+     *  Copyright 2021 Kimari Guthre
+     */
+    /*
     First, ask for the amount of euros being exchanged and store that.
     Then, ask for the exchange rate and store that.
     Then, multiply the euros by the exchange rate,
@@ -18,7 +22,8 @@ public class Solution11 {
         System.out.print("What is the exchange rate? ");
         double euroToUSDExchange = Double.parseDouble(in.nextLine());
         double usdCount = euroCount * euroToUSDExchange;
-        System.out.print(euroCount + " euros at an exchange rate of " + euroToUSDExchange + " is \n" + usdFormat.format(usdCount) + " U.S. dollars.");
+        System.out.print(euroCount + " euros at an exchange rate of " + euroToUSDExchange + " is \n"
+                + usdFormat.format(usdCount) + " U.S. dollars.");
 
     }
 }

@@ -1,0 +1,40 @@
+
+Z
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ìäş
+Z
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(äÆ¾Ó
+_
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(Çëõãøÿÿÿÿ
+_
+java:S1120 "DMake this line start after 6 spaces to indent the code consistently.(Û±ªÜÿÿÿÿÿ
+4
+java:S1451"&Add or update the header of this file.
+E
+java:S6212"/Declare this local variable with "var" instead.(äÆ¾Ó
+L
+java:S1943"6Remove this use of constructor "Scanner(InputStream)".(äÆ¾Ó
+J
+java:S6212"/Declare this local variable with "var" instead.(ğï”¦ûÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(İøôşÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ôÑƒ­
+E
+java:S6212"/Declare this local variable with "var" instead.(µºäÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Çëõãøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿßâ
+E
+java:S6212"/Declare this local variable with "var" instead.(µºäÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ØÍ×­
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(†ßÆÄ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ìÅ¿öıÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(…–í¦ûÿÿÿÿ
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(µºäÿ
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(µºäÿ

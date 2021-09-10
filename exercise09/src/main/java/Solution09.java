@@ -4,6 +4,10 @@ public class Solution09 {
     static final int SQR_FEET_PER_GALLON = 350;
     public static void main(String[] args) {
         /*
+         *  UCF COP3330 Fall 2021 Assignment 2 Solution
+         *  Copyright 2021 Kimari Guthre
+         */
+        /*
         Ask the user for and store the width of the ceiling,
         then do the same with the length,
         then calculate how many square feet the ceiling is,
@@ -16,8 +20,9 @@ public class Solution09 {
         System.out.print("How long is the ceiling in feet? ");
         int ceilLength = Integer.parseInt(in.nextLine());
         int ceilArea = ceilWidth * ceilLength;
-        int paintGallons = (int) Math.ceil(ceilArea * 1f / SQR_FEET_PER_GALLON);
-        System.out.print("You will need to purchase " + paintGallons + " gallons of paint to cover " + ceilArea + " square feet.");
+        int paintGallons = (int) Math.ceil(ceilArea / SQR_FEET_PER_GALLON);
+        System.out.print("You will need to purchase " + paintGallons + " gallons of paint to cover " + ceilArea
+                + " square feet.");
 
     }
 }

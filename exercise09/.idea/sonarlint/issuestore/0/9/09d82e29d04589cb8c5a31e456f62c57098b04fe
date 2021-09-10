@@ -1,0 +1,32 @@
+
+a
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ªï†Á8Ô²³…½/
+a
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(äÆ¾Ó8Ô²³…½/
+;
+java:S1451"&Add or update the header of this file.8Ô²³…½/
+Y
+java:S2039"<Explicitly declare the visibility for "SQR_FEET_PER_GALLON".(ªï†Á8Ô²³…½/
+L
+java:S6212"/Declare this local variable with "var" instead.(äÆ¾Ó8ô²³…½/
+S
+java:S1943"6Remove this use of constructor "Scanner(InputStream)".(äÆ¾Ó8ƒ³³…½/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(øÃ»§8ƒ³³…½/
+Q
+java:S6212"/Declare this local variable with "var" instead.(¢ê°úÿÿÿÿ8ƒ³³…½/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÍöìÉ8ƒ³³…½/
+Q
+java:S6212"/Declare this local variable with "var" instead.(¬èõ…úÿÿÿÿ8ƒ³³…½/
+L
+java:S6212"/Declare this local variable with "var" instead.(Ö­‚Ó8‘Ü¹…½/
+B
+java:S2185"%Remove this silly call to "Math.ceil"(Ö­‚Ó8éùµ…½/
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ÓŸæa8”³³…½/
+7
+java:S1220""Move this file to a named package.8”³³…½/
+_
+java:S2184"BCast one of the operands of this division operation to a "double".(Ö­‚Ó8éùµ…½/
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¯†‡Ó8”³³…½/
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘8”³³…½/

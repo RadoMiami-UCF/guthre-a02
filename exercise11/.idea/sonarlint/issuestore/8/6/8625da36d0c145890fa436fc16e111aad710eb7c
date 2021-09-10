@@ -1,0 +1,26 @@
+
+Z
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(Çµí‘
+Z
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(äÆ¾Ó
+4
+java:S1451"&Add or update the header of this file.
+E
+java:S6212"/Declare this local variable with "var" instead.(äÆ¾Ó
+L
+java:S1943"6Remove this use of constructor "Scanner(InputStream)".(äÆ¾Ó
+E
+java:S6212"/Declare this local variable with "var" instead.(•Ç¨…
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Šæ¦üÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(‹—«Ïùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(è—éÖûÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(¦ôìùıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ı–ºÙÿÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(êûŞûıÿÿÿÿ
+W
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘

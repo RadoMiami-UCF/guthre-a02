@@ -2,8 +2,13 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Solution10 {
-    static final float TAX_RATE = 0.055f;
+    private static final double TAX_RATE = 0.055;
+    private static final int ITEM_COUNT = 3;
     public static void main(String[] args) {
+        /*
+         *  UCF COP3330 Fall 2021 Assignment 2 Solution
+         *  Copyright 2021 Kimari Guthre
+         */
         /*
         Ask the user for the price of an item, then store it,
         then ask the user for the quantity of that item, then store it,
@@ -14,22 +19,22 @@ public class Solution10 {
          */
         Scanner in = new Scanner(System.in);
         DecimalFormat priceFormat = new DecimalFormat("0.00");
-        float[] priceArray = new float[3];
-        int[] quantityArray = new int[3];
-        for(int j = 0; j < 3; j++) {
+        double[] priceArray = new double[ITEM_COUNT];
+        int[] quantityArray = new int[ITEM_COUNT];
+        for(int j = 0; j < ITEM_COUNT; j++) {
             System.out.print("Enter the price of item " + (j + 1) + ": ");
-            priceArray[j] = Float.parseFloat(in.nextLine());
+            priceArray[j] = Double.parseDouble(in.nextLine());
             System.out.print("Enter the quantity of item " + (j + 1) + ": ");
             quantityArray[j] = Integer.parseInt(in.nextLine());
         }
-        float subtotal = 0f;
-        for(int j = 0; j < 3; j++) {
+        double subtotal = 0;
+        for(int j = 0; j < ITEM_COUNT; j++) {
             subtotal += (priceArray[j] * quantityArray[j]);
         }
         System.out.println("Subtotal: $" + priceFormat.format(subtotal));
-        float tax = subtotal * TAX_RATE;
+        double tax = subtotal * TAX_RATE;
         System.out.println("Tax: $" + priceFormat.format(tax));
-        float total = subtotal + tax;
+        double total = subtotal + tax;
         System.out.println("Total: $" + priceFormat.format(total));
 
     }
