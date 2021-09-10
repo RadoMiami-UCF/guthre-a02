@@ -3,6 +3,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Solution12 {
+    private static final int NUM_TO_PERCENT = 100;
     public static void main(String[] args) {
         /*
          *  UCF COP3330 Fall 2021 Assignment 2 Solution
@@ -22,11 +23,11 @@ public class Solution12 {
         System.out.print("Enter the principal: ");
         double principal = Double.parseDouble(in.nextLine());
         System.out.print("Enter the rate of interest: ");
-        double interestRate = Double.parseDouble(in.nextLine());
+        double interestRate = (Double.parseDouble(in.nextLine())) / NUM_TO_PERCENT;
         System.out.print("Enter the number of years: ");
         int investYears = Integer.parseInt(in.nextLine());
-        double investmentEndAmount = principal * (1 + (interestRate/100) * investYears);
-        System.out.print("After " + investYears + " years at " + percentageFormat.format(interestRate)
+        double investmentEndAmount = principal * (1 + (interestRate) * investYears);
+        System.out.print("After " + investYears + " years at " + percentageFormat.format((interestRate) * NUM_TO_PERCENT)
                 + "%, the investment will be worth $" + moneyFormat.format(investmentEndAmount) + ".");
 
     }
