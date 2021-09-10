@@ -16,9 +16,9 @@ public class Solution13 {
         (principal amount *(1 + rate/times interest is compounded)^(times interest is compounded*years))
         and report that to the user, along with the other arguments.
          */
-        Scanner in = new Scanner(System.in);
-        DecimalFormat moneyFormat = new DecimalFormat("0.00");
-        DecimalFormat percentageFormat = new DecimalFormat("0.0");
+        var in = new Scanner(System.in);
+        var moneyFormat = new DecimalFormat("0.00");
+        var percentageFormat = new DecimalFormat("0.0");
         moneyFormat.setRoundingMode(RoundingMode.CEILING);
         //Notice this slick code recycling!
         System.out.print("What is the principal amount? ");
