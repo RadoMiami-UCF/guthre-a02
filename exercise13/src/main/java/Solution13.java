@@ -20,7 +20,6 @@ public class Solution13 {
         var moneyFormat = new DecimalFormat("0.00");
         var percentageFormat = new DecimalFormat("0.0");
         moneyFormat.setRoundingMode(RoundingMode.CEILING);
-        //Notice this slick code recycling!
         System.out.print("What is the principal amount? ");
         var principal = Double.parseDouble(in.nextLine());
         System.out.print("What is the rate? ");
