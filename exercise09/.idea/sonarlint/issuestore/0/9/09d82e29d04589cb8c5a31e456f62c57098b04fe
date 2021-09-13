@@ -1,12 +1,12 @@
 
 a
-java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ªο†Α8Τ²³…½/
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(ªο†Α8Τ²³…½/
 a
 java:S1120"DMake this line start after 4 spaces to indent the code consistently.(δΖΎΣ8Τ²³…½/
 ;
-java:S1451"&Add or update the header of this file.8Τ²³…½/
+java:S1451"&Add or update the header of this file.8θΊξ€Ύ/
 Y
-java:S2039"<Explicitly declare the visibility for "SQR_FEET_PER_GALLON".(ªο†Α8Τ²³…½/
+java:S2039"<Explicitly declare the visibility for "SQR_FEET_PER_GALLON".(ªο†Α8Τ²³…½/
 L
 java:S6212"/Declare this local variable with "var" instead.(δΖΎΣ8τ²³…½/
 S
@@ -27,6 +27,6 @@ java:S1220""Move this file to a named package.8”³³…½/
 _
 java:S2184"BCast one of the operands of this division operation to a "double".(Φ­‚Σ8ιωµ…½/
 ^
-java:S1106"AMove this left curly brace to the beginning of next line of code.(―†‡Σ8”³³…½/
+java:S1106"AMove this left curly brace to the beginning of next line of code.(―†‡Σ8”³³…½/
 ^
-java:S1106"AMove this left curly brace to the beginning of next line of code.(Ηµν‘8”³³…½/
+java:S1106	"AMove this left curly brace to the beginning of next line of code.(Ηµν‘8”³³…½/

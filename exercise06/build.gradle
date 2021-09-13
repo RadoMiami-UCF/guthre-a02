@@ -22,3 +22,7 @@ test {
 application {
     mainClass = 'Solution06'
 }
+
+run {
+    standardInput = System.in
+}

@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Kimari Guthre
+ */
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -5,10 +9,6 @@ public class Solution10 {
     private static final double TAX_RATE = 0.055;
     private static final int ITEM_COUNT = 3;
     public static void main(String[] args) {
-        /*
-         *  UCF COP3330 Fall 2021 Assignment 2 Solution
-         *  Copyright 2021 Kimari Guthre
-         */
         /*
         Ask the user for the price of an item, then store it,
         then ask the user for the quantity of that item, then store it,

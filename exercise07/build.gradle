@@ -20,5 +20,9 @@ test {
 }
 
 application {
-    mainClass = "Solution07"
+    mainClass = 'Solution07'
+}
+
+run {
+    standardInput = System.in
 }

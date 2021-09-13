@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Kimari Guthre
+ */
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -5,10 +9,6 @@ import java.util.Scanner;
 public class Solution12 {
     private static final int NUM_TO_PERCENT = 100;
     public static void main(String[] args) {
-        /*
-         *  UCF COP3330 Fall 2021 Assignment 2 Solution
-         *  Copyright 2021 Kimari Guthre
-         */
         /*
         Ask for the principal amount and store it,
         then ask for the rate of interest (as percentage) and store it,

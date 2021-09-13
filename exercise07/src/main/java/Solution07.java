@@ -1,14 +1,14 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Kimari Guthre
+ */
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Solution07 {
     static final double SQ_METER_TO_SQ_FEET_FACTOR = 0.09290304;
-    //Side note: IntelliJ yelled at me when I put the constant in main for whatever reason.
     public static void main(String[] args) {
-        /*
-         *  UCF COP3330 Fall 2021 Assignment 2 Solution
-         *  Copyright 2021 Kimari Guthre
-         */
         /*
         Ask for and store the length and width of a room in feet.
         Then tell the user the length and width that they inputted.

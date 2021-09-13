@@ -1,13 +1,13 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Kimari Guthre
+ */
 import java.util.Calendar;
 import java.util.Scanner;
 
 public class Solution06 {
     public static void main(String[] args)
     {
-        /*
-         *  UCF COP3330 Fall 2021 Assignment 2 Solution
-         *  Copyright 2021 Kimari Guthre
-         */
         /*
         First, get the user's age.
         Then, get when they would like to retire.
