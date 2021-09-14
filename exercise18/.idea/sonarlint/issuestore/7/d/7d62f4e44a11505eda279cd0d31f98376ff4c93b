@@ -1,0 +1,25 @@
+
+g	java:S109"SAssign this magic number 32 to a well-named constant, and use the constant instead.(ûÍ†O
+f	java:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(ûÍ†O
+f	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(ûÍ†O
+f	java:S109"RAssign this magic number 9 to a well-named constant, and use the constant instead.(ûÍ†O
+f	java:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(ûÍ†O
+g	java:S109"SAssign this magic number 32 to a well-named constant, and use the constant instead.(ûÍ†O
+M	java:S864"9Add parentheses to make the operator precedence explicit.(ûÍ†O
+4
+java:S1451"&Add or update the header of this file.
+L
+java:S1943"6Remove this use of constructor "Scanner(InputStream)".( ı£„
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¯›ô—şÿÿÿÿ
+T
+java:S6126"2Replace this String concatenation with Text block.(¯›ô—şÿÿÿÿ8ş›¬¾/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ìÁÅÍ
+]
+java:S1774"GConvert this usage of the ternary operator to an "if"/"else" structure.(ìÁÅÍ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¦†„¦
+]
+java:S1774"GConvert this usage of the ternary operator to an "if"/"else" structure.(¦†„¦
+\
+java:S1774"GConvert this usage of the ternary operator to an "if"/"else" structure.(ûÍ†O
+0
+java:S1220""Move this file to a named package.

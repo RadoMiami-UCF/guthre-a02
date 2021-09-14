@@ -1,0 +1,22 @@
+
+q	java:S109#"UAssign this magic number 5.14 to a well-named constant, and use the constant instead.(ÑÍÇ 8ğè›«¾/
+q	java:S109#"UAssign this magic number 0.73 to a well-named constant, and use the constant instead.(ÑÍÇ 8ğè›«¾/
+q	java:S109#"UAssign this magic number 0.66 to a well-named constant, and use the constant instead.(ÑÍÇ 8ğè›«¾/
+r	java:S109#"VAssign this magic number 0.015 to a well-named constant, and use the constant instead.(ÑÍÇ 8ğè›«¾/
+4
+java:S1451"&Add or update the header of this file.
+S
+java:S1943"6Remove this use of constructor "Scanner(InputStream)".( ı£„8Çá‰«¾/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ôÇôôşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ó¶¢Ãıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ş±ğŒÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.( û÷œÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(­ãê
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­Ùçùùÿÿÿÿ
+b
+java:S1774"GConvert this usage of the ternary operator to an "if"/"else" structure.(­Ùçùùÿÿÿÿ
+c	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú³ış
+]
+java:S1774#"GConvert this usage of the ternary operator to an "if"/"else" structure.(ÑÍÇ 
+0
+java:S1220""Move this file to a named package.
