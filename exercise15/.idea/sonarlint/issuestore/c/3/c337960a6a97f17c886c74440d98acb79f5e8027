@@ -4,8 +4,6 @@ java:S1451"&Add or update the header of this file.
 L
 java:S1943"6Remove this use of constructor "Scanner(InputStream)".( ý£„
 S	java:S106"9Replace this use of System.out or System.err by a logger.(ŒÜ¥Öûÿÿÿÿ
-G
-java:S1108"1Move this "else" keyword to a new dedicated line.(å¥ž‡
 S	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ”¦‚ýÿÿÿÿ
 N	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ˜çæ
 0
