@@ -1,0 +1,12 @@
+
+4
+java:S1451"&Add or update the header of this file.
+Q
+java:S1943"6Remove this use of constructor "Scanner(InputStream)".(„ï”¸úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ý©ÕÓþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ß˜Üñùÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(åÝŒÖ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(Å«§Ô
+c	java:S1003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙïË‡
+0
+java:S1220""Move this file to a named package.
