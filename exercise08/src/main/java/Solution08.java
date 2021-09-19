@@ -2,6 +2,7 @@
  *  UCF COP3330 Fall 2021 Assignment 2 Solution
  *  Copyright 2021 Kimari Guthre
  */
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class Solution08 {
@@ -17,17 +18,17 @@ public class Solution08 {
         then store the amount of remaining slices of pizza by finding slices mod people,
         then finally tell the amount of leftover slices.
          */
-        Scanner in = new Scanner(System.in);
-        System.out.print("How many people? ");
-        int people = Integer.parseInt(in.nextLine());
-        System.out.print("How many pizzas do you have? ");
-        int pizzas = Integer.parseInt(in.nextLine());
-        System.out.print("How many slices per pizza? ");
-        int slicesPerPizza = Integer.parseInt(in.nextLine());
-        int totalSlices = pizzas * slicesPerPizza;
-        System.out.println(people + " people with " + pizzas + " pizzas (" + totalSlices + " slices)");
-        System.out.print("Each person gets " + totalSlices / people + " pieces of pizza.\nThere are "
-                + totalSlices % people + " leftover pieces.");
+        var people = sayThenGetInt("How many people? ");
+        var pizzas = sayThenGetInt("How many pizzas do you have? ");
+        var slicesPerPizza = sayThenGetInt("How many slices per pizza? ");
+        var totalSlices = pizzas * slicesPerPizza;
+        System.out.print(people + " people with " + pizzas + " pizzas (" + totalSlices + " slices)\nEach person gets "
+                + totalSlices / people + " pieces of pizza.\nThere are " + totalSlices % people + " leftover pieces.");
+    }
 
+    public static int sayThenGetInt(String sayString) {
+        var in = new Scanner(System.in, StandardCharsets.UTF_8);
+        System.out.print(sayString);
+        return in.nextInt();
     }
 }

@@ -3,6 +3,7 @@
  *  Copyright 2021 Kimari Guthre
  */
 import java.math.RoundingMode;
+import java.nio.charset.StandardCharsets;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -14,16 +15,18 @@ public class Solution11 {
     then print the amount of USD exchanged from the exchange rate, rounded up to the nearest penny.
      */
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        DecimalFormat usdFormat = new DecimalFormat("0.00");
+        var usdFormat = new DecimalFormat("0.00");
         usdFormat.setRoundingMode(RoundingMode.CEILING);
-        System.out.print("How many euros are you exchanging? ");
-        double euroCount = Double.parseDouble(in.nextLine());
-        System.out.print("What is the exchange rate? ");
-        double euroToUSDExchange = Double.parseDouble(in.nextLine());
+        var euroCount = sayThenGetDouble("How many euros are you exchanging? ");
+        var euroToUSDExchange = sayThenGetDouble("What is the exchange rate? ");
         double usdCount = euroCount * euroToUSDExchange;
         System.out.print(euroCount + " euros at an exchange rate of " + euroToUSDExchange + " is \n"
                 + usdFormat.format(usdCount) + " U.S. dollars.");
+    }
 
+    public static double sayThenGetDouble(String sayString) {
+        var in = new Scanner(System.in, StandardCharsets.UTF_8);
+        System.out.print(sayString);
+        return in.nextDouble();
     }
 }

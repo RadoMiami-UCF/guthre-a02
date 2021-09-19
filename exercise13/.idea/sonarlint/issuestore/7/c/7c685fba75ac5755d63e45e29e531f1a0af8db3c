@@ -1,21 +1,0 @@
-
-Z
-java:S1120
-"DMake this line start after 2 spaces to indent the code consistently.(¡›ö˜
-Z
-java:S1120"DMake this line start after 4 spaces to indent the code consistently.( ı£„
-4
-java:S1451"&Add or update the header of this file.
-L
-java:S1943"6Remove this use of constructor "Scanner(InputStream)".( ı£„
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ãîİúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÁöÍÁ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ”‡ò
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ñğö
-S	java:S106!"9Replace this use of System.out or System.err by a logger.(—úí‘üÿÿÿÿ
-0
-java:S1220""Move this file to a named package.
-\
-java:S1106	"AMove this left curly brace to the beginning of next line of code.(ÊŒ‰¼şÿÿÿÿ
-W
-java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘
