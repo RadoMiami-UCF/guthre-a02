@@ -1,0 +1,13 @@
+
+4
+java:S1451"&Add or update the header of this file.
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÃËèš
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ö€¼…
+S	java:S106"9Replace this use of System.out or System.err by a logger.(š˜¬ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ëÀ´Åûÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ÂÒÜöùÿÿÿÿ
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(œ»¬£8Íº¼‡À/
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(¾°ïù8Íº¼‡À/
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(Åµ…¼8Íº¼‡À/
+0
+java:S1220""Move this file to a named package.

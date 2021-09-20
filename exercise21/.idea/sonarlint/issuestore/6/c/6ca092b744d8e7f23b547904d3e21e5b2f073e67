@@ -1,0 +1,20 @@
+
+g	java:S109 "RAssign this magic number 2 to a well-named constant, and use the constant instead.(ü£òé
+l	java:S109!"RAssign this magic number 3 to a well-named constant, and use the constant instead.(ï…Ø·ûÿÿÿÿ
+l	java:S109""RAssign this magic number 4 to a well-named constant, and use the constant instead.(šÊ¦ïûÿÿÿÿ
+g	java:S109#"RAssign this magic number 5 to a well-named constant, and use the constant instead.(«áª™
+g	java:S109$"RAssign this magic number 6 to a well-named constant, and use the constant instead.(„ËŠ
+f	java:S109%"RAssign this magic number 7 to a well-named constant, and use the constant instead.(­÷£g
+g	java:S109&"RAssign this magic number 8 to a well-named constant, and use the constant instead.(†Àİò
+l	java:S109'"RAssign this magic number 9 to a well-named constant, and use the constant instead.(Ôí·Šùÿÿÿÿ
+h	java:S109("SAssign this magic number 10 to a well-named constant, and use the constant instead.(şüšã
+m	java:S109)"SAssign this magic number 11 to a well-named constant, and use the constant instead.(¾Ì°©ûÿÿÿÿ
+h	java:S109*"SAssign this magic number 12 to a well-named constant, and use the constant instead.(Áœ´‰
+4
+java:S1451"&Add or update the header of this file.
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ô™áÃ
+x
+java:S1541"bThe Cyclomatic Complexity of this method "safeSayMonth" is 14 which is greater than 10 authorized.(ìÙÂ•
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(Ø®ÿÛ
+0
+java:S1220""Move this file to a named package.
