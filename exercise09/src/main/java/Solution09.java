@@ -7,6 +7,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Solution09 {
+    private static final Scanner in = new Scanner(System.in, StandardCharsets.UTF_8);
     private static final int SQR_FEET_PER_GALLON = 350;
 
     public static void main(String[] args) {
@@ -26,8 +27,7 @@ public class Solution09 {
                 + doubleFormat.format(ceilArea) + " square feet.");
     }
 
-    public static double sayThenGetDouble(String sayString) {
-        var in = new Scanner(System.in, StandardCharsets.UTF_8);
+    private static double sayThenGetDouble(String sayString) {
         System.out.print(sayString);
         return in.nextDouble();
     }

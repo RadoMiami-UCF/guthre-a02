@@ -7,6 +7,7 @@ import java.time.Year;
 import java.util.Scanner;
 
 public class Solution06 {
+    private static final Scanner in = new Scanner(System.in, StandardCharsets.UTF_8);
     public static void main(String[] args) {
         /*
         First, get the user's age.
@@ -29,8 +30,7 @@ public class Solution06 {
         System.out.println("It's " + currYear + ", so you can retire in " + retireYear + ".");
     }
 
-    public static int sayThenGetInt(String sayString) {
-        var in = new Scanner(System.in, StandardCharsets.UTF_8);
+    private static int sayThenGetInt(String sayString) {
         System.out.print(sayString);
         return in.nextInt();
     }

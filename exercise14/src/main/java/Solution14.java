@@ -3,12 +3,15 @@
  *  Copyright 2021 Kimari Guthre
  */
 import java.math.RoundingMode;
+import java.nio.charset.StandardCharsets;
 import java.text.DecimalFormat;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class Solution14 {
+    private static final Scanner in = new Scanner(System.in, StandardCharsets.UTF_8);
     public static final double WI_TAX = 0.055;
+
     public static void main(String[] args) {
         /*
         First, ask for and store the order amount.
@@ -17,13 +20,10 @@ public class Solution14 {
         If tax was added, give the order amount in dollars, then the tax, then the total.
         Otherwise, just give the total.
          */
-        Scanner in = new Scanner(System.in);
         var moneyFormat = new DecimalFormat("0.00");
         moneyFormat.setRoundingMode(RoundingMode.CEILING);
-        System.out.print("What is the order amount? ");
-        var orderAmount = Double.parseDouble(in.nextLine());
-        System.out.print("What is the state? ");
-        var state = in.nextLine();
+        var orderAmount = Double.parseDouble(sayThenGetString("What is the order amount? "));
+        var state = sayThenGetString("What is the state? ");
         var output = "";
         if(Objects.equals(state, "WI")) {
             var tax = orderAmount * WI_TAX;
@@ -33,5 +33,10 @@ public class Solution14 {
         }
         output += "The total is $" + moneyFormat.format(orderAmount) + ".";
         System.out.print(output);
+    }
+
+    private static String sayThenGetString(String sayString) {
+        System.out.print(sayString);
+        return in.nextLine();
     }
 }

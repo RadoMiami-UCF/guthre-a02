@@ -6,6 +6,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class Solution08 {
+    private static final Scanner in = new Scanner(System.in, StandardCharsets.UTF_8);
+
     public static void main(String[] args) {
         /*
         Ask and store how many people there are,
@@ -26,8 +28,7 @@ public class Solution08 {
                 + totalSlices / people + " pieces of pizza.\nThere are " + totalSlices % people + " leftover pieces.");
     }
 
-    public static int sayThenGetInt(String sayString) {
-        var in = new Scanner(System.in, StandardCharsets.UTF_8);
+    private static int sayThenGetInt(String sayString) {
         System.out.print(sayString);
         return in.nextInt();
     }

@@ -1,11 +1,9 @@
 
 4
 java:S1451"&Add or update the header of this file.
-L
-java:S1943"6Remove this use of constructor "Scanner(InputStream)".( ı£„
-S	java:S106"9Replace this use of System.out or System.err by a logger.(©ùàúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÌÂŒ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÌÂŒ
 ]
-java:S1774"GConvert this usage of the ternary operator to an "if"/"else" structure.(ŞÌÂŒ
+java:S1774"GConvert this usage of the ternary operator to an "if"/"else" structure.(ŞÌÂŒ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Åµ…¼8ğ®ßƒÀ/
 0
 java:S1220""Move this file to a named package.

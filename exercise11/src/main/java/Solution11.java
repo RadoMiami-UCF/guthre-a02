@@ -8,6 +8,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Solution11 {
+    private static final Scanner in = new Scanner(System.in, StandardCharsets.UTF_8);
     /*
     First, ask for the amount of euros being exchanged and store that.
     Then, ask for the exchange rate and store that.
@@ -24,8 +25,7 @@ public class Solution11 {
                 + usdFormat.format(usdCount) + " U.S. dollars.");
     }
 
-    public static double sayThenGetDouble(String sayString) {
-        var in = new Scanner(System.in, StandardCharsets.UTF_8);
+    private static double sayThenGetDouble(String sayString) {
         System.out.print(sayString);
         return in.nextDouble();
     }

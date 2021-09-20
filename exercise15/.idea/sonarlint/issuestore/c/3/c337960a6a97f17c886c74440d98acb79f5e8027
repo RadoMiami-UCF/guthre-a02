@@ -1,10 +1,8 @@
 
 4
 java:S1451"&Add or update the header of this file.
-L
-java:S1943"6Remove this use of constructor "Scanner(InputStream)".( ý£„
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ŒÜ¥Öûÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ”¦‚ýÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ˜çæ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ”¦‚ýÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ˜çæ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(Åµ…¼
 0
 java:S1220""Move this file to a named package.

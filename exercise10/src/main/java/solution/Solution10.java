@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Solution10 {
     private static final double TAX_RATE = 0.055;
     private static final int ITEM_COUNT = 3;
+
     public static void main(String[] args) {
         /*
         Ask the user for the price of an item, then store it,
@@ -42,13 +43,13 @@ public class Solution10 {
         return subtotal;
     }
 
-    public static double sayThenGetDouble(String sayString) {
+    private static double sayThenGetDouble(String sayString) {
         var in = new Scanner(System.in, StandardCharsets.UTF_8);
         System.out.print(sayString);
         return in.nextDouble();
     }
 
-    public static void sayStringThenDouble(String sayString, double sayDouble) {
+    private static void sayStringThenDouble(String sayString, double sayDouble) {
         var priceFormat = new DecimalFormat("0.00");
         System.out.println(sayString + priceFormat.format(sayDouble));
     }

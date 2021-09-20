@@ -1,21 +1,11 @@
 
-l	java:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(àƒ‹žùÿÿÿÿ
-n	java:S109"TAssign this magic number 703 to a well-named constant, and use the constant instead.(àƒ‹žùÿÿÿÿ
 4
 java:S1451"&Add or update the header of this file.
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ê›”‚
-E
-java:S6212"/Declare this local variable with "var" instead.(ß¬«˜
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ªžÁ’
-J
-java:S6212"/Declare this local variable with "var" instead.(ÞÆ¦Úúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Ôˆ‰®
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ª®µ‘üÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÿüúð
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÐÎåéÿÿÿÿÿ
-N	java:S106 "9Replace this use of System.out or System.err by a logger.(ŒçÈ†
-h	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘÷…™ùÿÿÿÿ
-L
-java:S1943("6Remove this use of constructor "Scanner(InputStream)".( ý£„
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ôˆ‰®
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ª®µ‘üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÿüúð
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ÐÎåéÿÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(ŒçÈ†
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(Åµ…¼
 0
 java:S1220""Move this file to a named package.

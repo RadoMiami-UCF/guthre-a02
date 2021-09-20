@@ -3,14 +3,15 @@
  *  Copyright 2021 Kimari Guthre
  */
 import java.math.RoundingMode;
+import java.nio.charset.StandardCharsets;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 public class Solution20 {
-    public static final double WISCONSIN_BASE_TAX = 0.05;
-    public static final double DUNN_TAX = 0.004;
-    public static final double EAU_CLAIRE_TAX = 0.005;
-    public static final double ILLINOIS_TAX = 0.08;
-    private static final Scanner in = new Scanner(System.in);
+    private static final double WISCONSIN_BASE_TAX = 0.05;
+    private static final double DUNN_TAX = 0.004;
+    private static final double EAU_CLAIRE_TAX = 0.005;
+    private static final double ILLINOIS_TAX = 0.08;
+    private static final Scanner in = new Scanner(System.in, StandardCharsets.UTF_8);
     public static void main(String[] args) {
         /*
         First, ask for and get the order amount.
@@ -24,17 +25,11 @@ public class Solution20 {
          */
         var moneyFormat = new DecimalFormat("0.00");
         moneyFormat.setRoundingMode(RoundingMode.CEILING);
-        System.out.print("What is the order amount? ");
-        var orderAmount = Double.parseDouble(in.nextLine());
-        //Have to do in.nextLine or the next in.nextLine automatically completes with a value of "".
-        System.out.print("What state do you live in? ");
-        var state = in.nextLine();
+        var orderAmount = Double.parseDouble(sayThenGetString("What is the order amount? "));
+        var state = sayThenGetString("What state do you live in? ");
         //Is it switch statement time? I think it's switch statement time.
         double tax = switch (state) {
-            case "Wisconsin" -> {
-                System.out.print("What county do you live in? ");
-                yield (CountyTaxAdd() + WISCONSIN_BASE_TAX);
-            }
+            case "Wisconsin" -> (CountyTaxAdd() + WISCONSIN_BASE_TAX);
             case "Illinois" -> ILLINOIS_TAX;
             default -> 0;
         };
@@ -49,11 +44,17 @@ public class Solution20 {
     }
 
     private static double CountyTaxAdd() {
+        System.out.print("What county do you live in? ");
         var county = in.nextLine();
         return switch (county) {
             case "Dunn" -> DUNN_TAX;
             case "Eau Claire" -> EAU_CLAIRE_TAX;
             default -> 0;
         };
+    }
+
+    private static String sayThenGetString(String sayString) {
+        System.out.print(sayString);
+        return in.nextLine();
     }
 }

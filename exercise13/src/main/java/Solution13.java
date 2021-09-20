@@ -8,6 +8,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Solution13 {
+    private static final Scanner in = new Scanner(System.in, StandardCharsets.UTF_8);
     private static final int NUM_TO_PERCENT = 100;
 
     public static void main(String[] args) {
@@ -22,7 +23,7 @@ public class Solution13 {
         var percentageFormat = new DecimalFormat("0.0");
         moneyFormat.setRoundingMode(RoundingMode.CEILING);
         var principal = sayThenGetDouble("What is the principal amount? ");
-        double ratePercentage = sayThenGetDouble("What is the rate?")/NUM_TO_PERCENT;
+        double ratePercentage = sayThenGetDouble("What is the rate? ")/NUM_TO_PERCENT;
         var years = (int) sayThenGetDouble("What is the number of years? ");
         var interestCompoundPerYear = (int)
                 sayThenGetDouble("What is the number of times the interest is compounded per year? ");
@@ -34,8 +35,7 @@ public class Solution13 {
                 + moneyFormat.format(endOfInvestment) + ".");
     }
 
-    public static double sayThenGetDouble(String sayString) {
-        var in = new Scanner(System.in, StandardCharsets.UTF_8);
+    private static double sayThenGetDouble(String sayString) {
         System.out.print(sayString);
         return in.nextDouble();
     }

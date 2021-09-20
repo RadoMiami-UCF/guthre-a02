@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Solution07 {
     private static final double SQ_METER_TO_SQ_FEET_FACTOR = 0.09290304;
+    private static final Scanner in = new Scanner(System.in, StandardCharsets.UTF_8);
 
     public static void main(String[] args) {
         /*
@@ -28,8 +29,7 @@ public class Solution07 {
                 + doubleFormat.format(areaSqMeters) + " square meters");
     }
 
-    public static double sayThenGetDouble(String sayString) {
-        var in = new Scanner(System.in, StandardCharsets.UTF_8);
+    private static double sayThenGetDouble(String sayString) {
         System.out.print(sayString);
         return in.nextDouble();
     }
